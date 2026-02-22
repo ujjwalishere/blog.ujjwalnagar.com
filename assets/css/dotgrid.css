@@ -1,0 +1,9 @@
+body {
+    background-image: radial-gradient(#d3d3d3 1px, transparent 1px) !important;
+    background-size: 20px 20px !important;
+}
+
+body.dark-theme {
+    background-image: radial-gradient(#444 1px, transparent 1px) !important;
+    background-size: 20px 20px !important;
+}

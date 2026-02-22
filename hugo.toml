@@ -20,6 +20,7 @@ pygmentscodefencesguesssyntax = true
   path = 'page' 
 
 [params]
+	customCSS = ["css/dotgrid.css"]
 	mode="toggle" # color-mode light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
 	subtitle =  "Hi there! I am Ujjwal and you are welcome to my little Nagari (City) on the internet."
