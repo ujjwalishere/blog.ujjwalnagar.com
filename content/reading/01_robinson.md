@@ -3,7 +3,7 @@ title: The Ministry for the Future
 author: Kim Stanley Robinson
 started: 2025-06-07
 finished: 2025-10-13
-rating: 4 # out of 5
+rating: 4.0 # out of 5
 status: finished # finished or 'reading'
 ISBN13: 9780356508863
 Published: 2020-01-01
