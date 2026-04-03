@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Music on Ujjwal Nagar</title>
+    <title>Musics on Ujjwal Nagar</title>
     <link>http://localhost:1313/music/</link>
-    <description>Recent content in Music on Ujjwal Nagar</description>
+    <description>Recent content in Musics on Ujjwal Nagar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Ujjwal</copyright>
-    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monthly Tape Mix — April 2026</title>
+      <link>http://localhost:1313/music/2026-04-03-april26/</link>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/music/2026-04-03-april26/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Monthly Tape Mix — June 2025</title>
       <link>http://localhost:1313/music/2025-06-20-june25/</link>
