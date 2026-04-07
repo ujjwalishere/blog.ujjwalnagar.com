@@ -22,7 +22,7 @@ pygmentscodefencesguesssyntax = true
 [params]
 	mode="toggle" # color-mode light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	subtitle =  "Hi there! I am Ujjwal and you are welcome to my little Nagari (City) on the internet. This is somewhat a personal space. All the opinions expressed here are mine only and does not represent any organisations and Individuals I am associated with."
+	subtitle =  "Hi there! I am Ujjwal and you are welcome to my little Nagari (City) on the internet. This is somewhat of a personal space. All the opinions expressed here are mine only and does not represent any organisations or individuals I am associated with."
 	mathjax = true # enable MathJax support
 	katex = true # enable KaTeX support
   ShowFullTextinRSS = true
@@ -46,10 +46,10 @@ name = "GitHub"
 icon = "github"
 url = "https://github.com/ujjwalishere"
 
-[[params.social]]
-name = "Instagram"
-icon = "instagram"
-url = "https://www.instagram.com/ujjwalnagar08/"
+# [[params.social]]
+# name = "Instagram"
+# icon = "instagram"
+# url = "https://www.instagram.com/ujjwalnagar08/"
 
 [[params.social]]
 name = "Linkedin"

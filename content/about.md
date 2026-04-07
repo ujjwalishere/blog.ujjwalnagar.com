@@ -16,9 +16,6 @@ I thrive on exploring real world challenges and solving them by things I learn i
 
 I hope this place will give you a little peek into my world and hopefully you will learn more about some new things.
 
-
-
-
 # Contact
 
 If you have any question or anything, just drop me an e-mail.
@@ -26,12 +23,8 @@ If you have any question or anything, just drop me an e-mail.
 
 I prefer not using social media, but you can find me here:
 
-* [Instagram](https://www.instagram.com/ujjwalnagar08/)
-* [Stackoverflow](https://stackoverflow.com/users/28903257/ujjwal)
 * [Github](https://github.com/ujjwalishere)
-* [Reddit](https://www.reddit.com/user/ujjwalishere/)
 * [Linkedin](https://www.linkedin.com/in/ujjwal-nagar-india/)
-* [Bluesky](https://bsky.app/profile/ujjwalnagar.bsky.social)
 
 # Colophon
 
