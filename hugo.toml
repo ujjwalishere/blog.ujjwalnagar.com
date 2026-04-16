@@ -56,6 +56,11 @@ name = "Linkedin"
 icon = "linkedin"
 url = "https://www.linkedin.com/in/ujjwal-nagar-india/"
 
+[[params.social]]
+name = "E-mail"
+icon = "mail"
+url = "mailto:contact@ujjwalnagar.com"
+
 # Main menu Items
 
 [[menu.main]]

@@ -7,7 +7,9 @@ author = "Hugo Authors"
 +++
 ![My Image](/images/ujjwal.jpeg)
 
-I am Ujjwal, currently an undergraduate student at Azim Premji University, Bengaluru; Majoring in Environmental Science and Sustainability. 
+I was born in Village in Western Uttar Pradesh in India, where I finished more or less of my studies till 12th grade. In between I spend a year in Kota, the famous coaching capital, beleiving I want to do engineering and hoping I will get a good college. The experience was terrible, miserably failed but it also helped me found a better path. I love science, whatever I did there was not science neither it seemed leading to it. Most importantly, the questions, that I love the most, which nobody answered. I left
+
+Currently an undergraduate student at Azim Premji University, Bengaluru; Majoring in Environmental Science and Sustainability. Something important but not the whole set of all the things I care from the bottom of my heart. 
 
 I can not say I am something or the other because I feel like i am not good at anything. Sometimes I code, write poetry, play volleyball, click some beautiful pictures, just explore some random topic like "Matrioshka brain or Ligo". I like opening things up and looking up what inside them or repairing broken old things. 
 

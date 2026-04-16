@@ -1,5 +1,5 @@
 ---
-title: What is Sustaianability
+title: What is Sustainability
 date: 2026-03-09
 description: Tried explaining such a commonly used word and some misconceptions I saw personally.
 draft: false

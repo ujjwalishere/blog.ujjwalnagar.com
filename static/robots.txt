@@ -1,8 +1,32 @@
-# Basic robots.txt
-User-agent: *
-Disallow:
+# robots.txt policy: allow only major search engine crawlers
 
-# Block common AI/LLM data collection crawlers (subject to change)
+# Default: block all crawlers not explicitly allowlisted below.
+User-agent: *
+Disallow: /
+
+# Search engines allowlist
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Explicit AI crawler blocks (redundant with default deny, kept for clarity)
 User-agent: GPTBot
 Disallow: /
 
@@ -15,13 +39,19 @@ Disallow: /
 User-agent: anthropic-ai
 Disallow: /
 
+User-agent: ClaudeBot
+Disallow: /
+
 User-agent: Claude-Web
 Disallow: /
 
-User-agent: Omgilibot
+User-agent: Google-Extended
 Disallow: /
 
-User-agent: FacebookBot
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Bytespider
 Disallow: /
 
 User-agent: cohere-ai
@@ -30,9 +60,4 @@ Disallow: /
 User-agent: Diffbot
 Disallow: /
 
-# Hakia, archive & general large-scale scrapers you might want to block
-User-agent: magpie-crawler
-Disallow: /
-
-# Sitemap reference
-Sitemap: https://www.ujjwalnagar.com/sitemap.xml
+Sitemap: https://blog.ujjwalnagar.com/sitemap.xml
