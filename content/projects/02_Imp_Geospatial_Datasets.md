@@ -10,8 +10,6 @@ status: "active"
 These are few collection of tools that I most often use and have used in my work. I will try to keep udating this list as I learn and use more tools. It is based on what I found useful in my research and projects, not a comprehensive list.
 
 
-> I do not include proprietary and commercial stuff here, but there are a lot out there, some of them quite good.
-
 # General Processing
 
 | Tool                        | Use      |

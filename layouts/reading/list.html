@@ -19,8 +19,8 @@
       <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
       <td>{{ with .Params.author }}{{ . }}{{ end }}</td>
       <td>{{ .Params.status | default (cond (isset .Params "finished") "finished" "reading") }}</td>
-      <td>{{ with .Params.started }}{{ . }}{{ end }}</td>
-      <td>{{ with .Params.finished }}{{ . }}{{ end }}</td>
+      <td>{{ with .Params.started }}{{ . | time | dateFormat "2006-01-02" }}{{ end }}</td>
+      <td>{{ with .Params.finished }}{{ . | time | dateFormat "2006-01-02" }}{{ end }}</td>
       <td>
         {{ if $r }}
           {{/* Render simple star bar */}}

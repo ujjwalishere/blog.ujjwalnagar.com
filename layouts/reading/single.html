@@ -14,10 +14,10 @@
         <tr><th scope="row">Title</th><td>{{ .Title }}</td></tr>
         {{ with .Params.author }}<tr><th scope="row">Author</th><td>{{ . }}</td></tr>{{ end }}
         {{ with .Params.isbn13 }}<tr><th scope="row">ISBN-13</th><td>{{ . }}</td></tr>{{ end }}
-        {{ with .Params.published }}<tr><th scope="row">Date Published</th><td>{{ . }}</td></tr>{{ end }}
+        {{ with .Params.published }}<tr><th scope="row">Date Published</th><td>{{ . | time | dateFormat "2006-01-02" }}</td></tr>{{ end }}
         {{ with .Params.publisher }}<tr><th scope="row">Publisher</th><td>{{ . }}</td></tr>{{ end }}
-        {{ with .Params.started }}<tr><th scope="row">Started</th><td>{{ . }}</td></tr>{{ end }}
-        {{ with .Params.finished }}<tr><th scope="row">Finished</th><td>{{ . }}</td></tr>{{ end }}
+        {{ with .Params.started }}<tr><th scope="row">Started</th><td>{{ . | time | dateFormat "2006-01-02" }}</td></tr>{{ end }}
+        {{ with .Params.finished }}<tr><th scope="row">Finished</th><td>{{ . | time | dateFormat "2006-01-02" }}</td></tr>{{ end }}
         {{ with .Params.rating }}<tr><th scope="row">Rating</th><td>{{ . }}</td></tr>{{ end }}
       </tbody>
     </table>

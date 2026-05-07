@@ -20,6 +20,7 @@
           {{- end -}}
         </div>
 
+        {{ if false }}
     <hr class="section-divider"> {{/* Divider BEFORE About Me section */}}
   {{/* Homepage About section from headless bundle: content/homepage/about.md */}}
         {{ with site.GetPage "homepage" }}
@@ -36,13 +37,14 @@
           </section>
           {{ end }}
         {{ end }}
+        {{ end }}
 
   <hr class="section-divider">
 
         <!-- Recent Posts List (paginated) -->
         {{ $mainSections := .Site.Params.mainSections | default (slice "posts") }}
         {{ $pages := where .Site.RegularPages "Type" "in" $mainSections }}
-        {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+        {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) 8 }}
   <h2 class="home-section-title">Recent Writings</h2>
         <ul class="posts writings-list">
         {{ range $paginator.Pages }}

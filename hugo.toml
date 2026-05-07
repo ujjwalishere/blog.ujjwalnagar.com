@@ -24,7 +24,7 @@ pygmentscodefencesguesssyntax = true
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
 	subtitle =  "Hi there! I am Ujjwal and you are welcome to my little Nagari (City) on the internet. This is somewhat of a personal space. All the opinions expressed here are mine only and does not represent any organisations or individuals I am associated with."
 	mathjax = true # enable MathJax support
-	katex = true # enable KaTeX support
+	katex = false # enable KaTeX support
   ShowFullTextinRSS = true
   favicon = "/favicon.svg"
   # Main content sections for homepage and related listings
@@ -142,10 +142,10 @@ weight = 8
         [markup.goldmark.extensions.extras.superscript]
           enable = false
       [markup.goldmark.extensions.passthrough]
-        enable = false
+        enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
-          block = []
-          inline = []
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
       [markup.goldmark.extensions.typographer]
         apostrophe = '&rsquo;'
         disable = false
