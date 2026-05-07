@@ -145,6 +145,7 @@ Their expertise and encouragement were instrumental in shaping this project.
 
 ## References
 
+- Imtiaz, F., Farooque, A. A., Randhawa, G. S., Garmdareh, S. E. H., Wang, X., Esau, T. J., Acharya, B., & Sadiq, R. (2025). Remote sensing-based spatiotemporal dynamics of agricultural drought on Prince Edward Island using Google Earth engine. Ecological Informatics, 86, 103073. <https://doi.org/10.1016/j.ecoinf.2025.103073>
 - Shewale, M. P., & Kumar, S. (2005). *Climatological features of drought incidences in India* (Meteorological Monograph Climatology No. 21/2005). National Climate Centre, India Meteorological Department. <https://imdpune.gov.in/Reports/drought.pdf>
 - Ministry of Finance, Government of India. (2024, July 22). *Agriculture sector has registered an average annual growth rate of 4.18 per cent over the last five years: Economic survey* (Press release). Press Information Bureau. <https://www.pib.gov.in/PressReleasePage.aspx?PRID=2034943&reg=3&lang=2>
 - Copernicus Emergency Management Service. (2025, August 11). *Global drought observatory report* (Interactive map report). European Commission. <https://drought.emergency.copernicus.eu/tumbo/gdo/report/?lon=84.016&lat=27.0378&date=2025-08-11>
@@ -153,4 +154,6 @@ Their expertise and encouragement were instrumental in shaping this project.
 - Didan, K. (2021). *MOD13Q1.061 Terra vegetation indices 16-day global 250m* (Dataset). NASA LP DAAC via Google Earth Engine. <https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD13Q1>
 - Wan, Z., Hook, S., & Hulley, G. (2021). *MOD11A2.061 Terra land surface temperature and emissivity 8-day global 1km* (Dataset). NASA LP DAAC via Google Earth Engine. <https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD11A2>
 - U.S. Geological Survey. (2013). *Landsat 8 collection 2 tier 1 level 2* (Dataset). Google Earth Engine. <https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2>
+
+
 
