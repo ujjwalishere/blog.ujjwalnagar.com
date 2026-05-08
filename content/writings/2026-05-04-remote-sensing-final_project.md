@@ -6,7 +6,7 @@ draft: false
 math: true
 ---
 
-> Note: This was a class project for my course *Geospatial Technology 2: Remote Sensing of the Environment*. It was done in a very short timeframe and does not guarantee the accuracy of results. 
+> Note: This project was completed as part of the course *Geospatial Technology 2: Remote Sensing of the Environment*. It was prepared within a limited timeframe; consequently, the methods and results should be interpreted with caution and are not guaranteed to be definitive or error-free.
 
 ![Agricultural Drought](/images/drought.jpg)
 *Image: Ujjwal Nagar*
@@ -23,7 +23,7 @@ I have long known that Uttar Pradesh is drought-prone and that this is not a new
 
 # Background
 
-Drought is a hydro-meteorological phenomenon generally caused by the lack of rainfall, which leads to loss of soil moisture. It can cause devastating effects on humans as well as all living beings and ecosystems. While uncommon around some parts of the world, this phenomenon mostly affects the tropics and nearby regions. In India, there is an occurrence of drought almost every two years, hence it is not uncommon for India. The intensity of drought can be exacerbated by phenomena like El Niño and other meteorological events. Hence, it is imperative that we monitor, assess, and analyse the spatio-temporal patterns of drought in our country to reduce the harm caused by it.
+Drought is a hydro-meteorological phenomenon generally caused by the lack of rainfall, which leads to loss of soil moisture. It can cause devastating effects on humans as well as all living beings and ecosystems. While uncommon around some parts of the world, this phenomenon mostly affects the tropics and nearby regions. In India, there is an occurrence of drought almost every two years, hence it is not uncommon for India. The intensity of drought can be exacerbated by phenomena like El Niño and other meteorological events. These intense episodes of droughts can become harmful and affect agriculture and our economy. Hence, it is imperative that we monitor, assess, and analyse the spatio-temporal patterns of drought in our country to reduce the harm caused by it.
 
 ## How to define drought?
 
@@ -39,6 +39,8 @@ When decalring a drought for the country as a whole, it is defined as:
 ## Agricultural drought and its impacts
 
 In India, agriculture provides livelihood support to about 42.3 per cent of the population, which is just a little less than half the population of this country. This is an astounding figure given the size of our population. That is why any adverse impact on agriculture will have a detrimental effect on the lives of so many people. Drought is one of those things that have impacted and can impact agriculture in a severe way. It can lead to food shortages and can have a devastating effect on the economy. So, in this project I will be assessing how agricultural drought has varied over the last 15 years.
+
+> There is a difference between drought and famine. Droughts are natural phenomenon of prolonged period of low rainfall than average, while famine is widespread scarcity of food. Droughts can lead to famine, but it is a man-made crisis caused by compunding factors like poverty, war, logistical failure etc.
 
 I will be using the VHI (Vegetation Health Index) to see how the cropland area has been affected by drought over the years. VHI has shown very good results when analysing the health of vegetation. Before you compute VHI, you need to compute the Temperature Condition Index (TCI) and Vegetation Condition Index (VCI), both of which are precursors for calculating VHI.
 
@@ -71,9 +73,9 @@ VHI = \alpha \times VCI + (1 - \alpha) \times TCI
 $$
 
 Where:
-- $VCI$ = Vegetation Condition Index
-- $TCI$ = Temperature Condition Index
-- $\alpha$ = Weighting coefficient (typically $\alpha = 0.5$, assuming equal contribution)
+$VCI$ = Vegetation Condition Index
+$TCI$ = Temperature Condition Index
+$\alpha$ = Weighting coefficient (typically $\alpha = 0.5$, assuming equal contribution)
 
 
 # Objective

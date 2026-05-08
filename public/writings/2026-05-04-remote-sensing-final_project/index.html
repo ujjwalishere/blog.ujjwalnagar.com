@@ -126,7 +126,7 @@
 
 		<section class="body">
 			<blockquote>
-<p>Note: This was a class project for my course <em>Geospatial Technology 2: Remote Sensing of the Environment</em>. It was done in a very short timeframe and does not guarantee the accuracy of results.</p></blockquote>
+<p>Note: This project was completed as part of the course <em>Geospatial Technology 2: Remote Sensing of the Environment</em>. It was prepared within a limited timeframe; consequently, the methods and results should be interpreted with caution and are not guaranteed to be definitive or error-free.</p></blockquote>
 <p><img src="/images/drought.jpg" alt="Agricultural Drought">
 <em>Image: Ujjwal Nagar</em></p>
 <h2 id="why-i-chose-this-project">Why I chose this project</h2>
@@ -135,7 +135,7 @@
 <p>I have long known that Uttar Pradesh is drought-prone and that this is not a new phenomenon for our state. However, I didn&rsquo;t know much about the impact of agriculture. So, when I was asked to do a project for my remote sensing course, this was one of the things that struck my mind. Why not do a project assessing how drought is affecting agriculture in the state of Uttar Pradesh? This is how this whole project was born.</p>
 <hr>
 <h1 id="background">Background</h1>
-<p>Drought is a hydro-meteorological phenomenon generally caused by the lack of rainfall, which leads to loss of soil moisture. It can cause devastating effects on humans as well as all living beings and ecosystems. While uncommon around some parts of the world, this phenomenon mostly affects the tropics and nearby regions. In India, there is an occurrence of drought almost every two years, hence it is not uncommon for India. The intensity of drought can be exacerbated by phenomena like El Niño and other meteorological events. Hence, it is imperative that we monitor, assess, and analyse the spatio-temporal patterns of drought in our country to reduce the harm caused by it.</p>
+<p>Drought is a hydro-meteorological phenomenon generally caused by the lack of rainfall, which leads to loss of soil moisture. It can cause devastating effects on humans as well as all living beings and ecosystems. While uncommon around some parts of the world, this phenomenon mostly affects the tropics and nearby regions. In India, there is an occurrence of drought almost every two years, hence it is not uncommon for India. The intensity of drought can be exacerbated by phenomena like El Niño and other meteorological events. These intense episodes of droughts can become harmful and affect agriculture and our economy. Hence, it is imperative that we monitor, assess, and analyse the spatio-temporal patterns of drought in our country to reduce the harm caused by it.</p>
 <h2 id="how-to-define-drought">How to define drought?</h2>
 <p>It may sound surprising, but different countries define drought differently. In simple language, it is regarded as a lack of rainfall, but this simple definition is also the controversial one. The threshold of &lsquo;how much less is less&rsquo; is the controversial part. This threshold can differ depending on how much a lack of rainfall causes trouble, and obviously, it depends on which sector you are talking about. For example, in a country like India, our crops are tuned to rainfall with many regions being entirely dependent on it. But this dependency varies depending on the crops as well as the water requirements of each crop. This makes it difficult to come to an agreement on how much lack of rainfall can be declared as a drought.</p>
 <p>Different countries define drought by observing the rainfall patterns of their respective regions. In India, The India Meteorological Department (IMD) defines drought as:</p>
@@ -144,6 +144,8 @@
 <em>&ldquo;When the rainfall deficiency exceeds 10% and when the area under drought exceeds 20% of the total area of the plains in the country, such a situation is considered as drought for the country as a whole.&rdquo;</em></p>
 <h2 id="agricultural-drought-and-its-impacts">Agricultural drought and its impacts</h2>
 <p>In India, agriculture provides livelihood support to about 42.3 per cent of the population, which is just a little less than half the population of this country. This is an astounding figure given the size of our population. That is why any adverse impact on agriculture will have a detrimental effect on the lives of so many people. Drought is one of those things that have impacted and can impact agriculture in a severe way. It can lead to food shortages and can have a devastating effect on the economy. So, in this project I will be assessing how agricultural drought has varied over the last 15 years.</p>
+<blockquote>
+<p>There is a difference between drought and famine. Droughts are natural phenomenon of prolonged period of low rainfall than average, while famine is widespread scarcity of food. Droughts can lead to famine, but it is a man-made crisis caused by compunding factors like poverty, war, logistical failure etc.</p></blockquote>
 <p>I will be using the VHI (Vegetation Health Index) to see how the cropland area has been affected by drought over the years. VHI has shown very good results when analysing the health of vegetation. Before you compute VHI, you need to compute the Temperature Condition Index (TCI) and Vegetation Condition Index (VCI), both of which are precursors for calculating VHI.</p>
 <p><strong>Vegetation Condition Index (VCI)</strong></p>
 $$
@@ -166,12 +168,10 @@ $$<p>Where:</p>
 <p><strong>Vegetation Health Index (VHI)</strong></p>
 $$
 VHI = \alpha \times VCI + (1 - \alpha) \times TCI
-$$<p>Where:</p>
-<ul>
-<li>$VCI$ = Vegetation Condition Index</li>
-<li>$TCI$ = Temperature Condition Index</li>
-<li>$\alpha$ = Weighting coefficient (typically $\alpha = 0.5$, assuming equal contribution)</li>
-</ul>
+$$<p>Where:
+$VCI$ = Vegetation Condition Index
+$TCI$ = Temperature Condition Index
+$\alpha$ = Weighting coefficient (typically $\alpha = 0.5$, assuming equal contribution)</p>
 <h1 id="objective">Objective</h1>
 <p>Evaluation of  agricultural drought and vegetation health conditions in Uttar Pradesh using MODIS-based Vegetation Health Index (VHI) from 2010 to 2025.</p>
 <ul>
