@@ -10,7 +10,7 @@ status: "active"
 These are few collection of tools that I most often use and have used in my work. I will try to keep udating this list as I learn and use more tools. It is based on what I found useful in my research and projects, not a comprehensive list.
 
 
-# General Processing
+# General Tools
 
 | Tool                        | Use      |
 | :---                        | :------: |
@@ -20,8 +20,9 @@ These are few collection of tools that I most often use and have used in my work
 | [Google Earth Engine](https://earthengine.google.com/) | Free Cloud platoform for geospatial analysis |
 | [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/)|  Another free cloud platform |
 | [GDAL](https://gdal.org ) | Although included in almost every tool, but can be used in cmd |
+| [NASA Panoply](https://www.giss.nasa.gov/tools/panoply/) | Tool for quick visualising of netcdf files |
 
-# Data Sources
+# RS & GIS Data Sources
 
 | Dataset | Description |
 | :--- | :--- |
@@ -36,14 +37,14 @@ These are few collection of tools that I most often use and have used in my work
 | [EO Browser](https://www.sentinel-hub.com/explore/eobrowser/) | Sentinel Hub Earth observation data browser |
 | [CHIRPS](https://www.chc.ucsb.edu/data/chirps) | Global rainfall data |
 | [GHSL](https://human-settlement.emergency.copernicus.eu/) | Global Human Settlement Layer |
-| [HydroSHEDS](https://www.hydrosheds.org/) | Hydrological data and maps |
+| [HydroSHEDS](https://www.hydrosheds.org/) | Hydrological data |
 | [AppEEARS](https://appeears.earthdatacloud.nasa.gov/) | NASA Earth data extraction tool |
 | [NASA EarthData](https://search.earthdata.nasa.gov/search) | NASA Earth observation data hub |
 | [SEDAC](https://www.earthdata.nasa.gov/centers/sedac-daac) | Socioeconomic and climate data |
 | [NEO](https://neo.gsfc.nasa.gov/) | NASA Earth Observations visualization |
 | [CIESIN Climate Data](https://ciesin.climate.columbia.edu/) | Columbia University climate data portal |
 
-# Python and GeoProcessing
+# Python Libraries
 
 | Library                      | Use      | How to install  |
 | :---                         | :------: | ----: |
@@ -55,9 +56,6 @@ These are few collection of tools that I most often use and have used in my work
 | Library                      | Use      | Link |
 | :---                         | :------: | ----: |
 | Color Brewer | Generating color palettee | https://colorbrewer2.org/ |
-
-
-
 
 
 ## General Tools
@@ -75,12 +73,11 @@ These are few collection of tools that I most often use and have used in my work
 | [DataBasin](https://databasin.org/) | Data aggregation and sharing |
 
 
-## Courses & Resources
+## Resources
 
-| Resource | Link |
+| Resource | Note |
 | :--- | :--- |
-| [Spatial Thoughts](https://spatialthoughts.com/) | |
-| [NASA Panoply](https://www.giss.nasa.gov/tools/panoply/) | |
+| [Spatial Thoughts](https://spatialthoughts.com/) | Amazing platform offering free courses, go to guide for any beginner. |
 | [Equal Earth](https://equal-earth.com/) | |
 | [NACIS](https://nacis.org/) | |
 | [Wisconsin Cartography](https://geography.wisc.edu/cartography/) | |
@@ -93,9 +90,5 @@ These are few collection of tools that I most often use and have used in my work
 | [Stamen](https://stamen.com/) | |
 | [Axis Maps](https://www.axismaps.com/) | |
 | [MapTiler](https://www.maptiler.com/) | |
-
-
-# Other Aggregated Sources
-
-* [Columbia Library](https://guides.library.columbia.edu/geotools/home) - List of tools and datasets aggregated by Columbia Library
-* [Brandeis Library](https://guides.library.brandeis.edu/c.php?g=990410&p=7164687) - Aggregated list from Brandeis Library
+| [Columbia Library](https://guides.library.columbia.edu/geotools/home) | List of tools and datasets aggregated by Columbia Library
+| [Brandeis Library](https://guides.library.brandeis.edu/c.php?g=990410&p=7164687) | Aggregated list from Brandeis Library
