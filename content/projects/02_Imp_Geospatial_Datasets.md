@@ -24,6 +24,7 @@ These are few collection of tools that I most often use and have used in my work
 
 # RS & GIS Data Sources
 
+<!--
 | Dataset | Description |
 | :--- | :--- |
 | [GADM](https://gadm.org/) | Boundaries for countries and subdivisions |
@@ -43,6 +44,7 @@ These are few collection of tools that I most often use and have used in my work
 | [SEDAC](https://www.earthdata.nasa.gov/centers/sedac-daac) | Socioeconomic and climate data |
 | [NEO](https://neo.gsfc.nasa.gov/) | NASA Earth Observations visualization |
 | [CIESIN Climate Data](https://ciesin.climate.columbia.edu/) | Columbia University climate data portal |
+-->
 
 # Python Libraries
 
