@@ -5,7 +5,7 @@ description: Defining pollution and its impacts.
 draft: true
 ---
 
-After reading the title you might be judging me and asking; is that really a qustion? We all know what pollution is. The smoke coming out of the factory, the stinky water flowing in Naala, or those mountains of plastics and trash whihc are about to engulf our cities. These are all examples any layperson can reacall instantly when asked this question. Ofcourse we all have and are experiencing the pollutions and its effects, but trust me it is not so easy to define and indentify pollution. 
+After reading the title you might be judging me and asking; is that really a qustion? We all know what pollution is. The smoke coming out of the factory, the stinky water flowing in Naala, or those mountains of plastics and trash which are about to engulf our cities. These are all examples any layperson can reacall instantly when asked this question. Ofcourse we all have and are experiencing the pollutions and its effects, but trust me it is not so easy to define and indentify pollution. 
 
 The answer can be subjective depending on who you ask. Maybe your neighbourhood uncle feels fine in the polluted air of your city while you may feel you are going to choke. People like me who just can't tolerate a tene-tiny amount of traffic noise while my friends feel fine. There is a lot of subjectivity involved, when it comes to wheither something is a pollution or not. 
 
