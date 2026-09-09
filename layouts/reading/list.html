@@ -1,25 +1,23 @@
 {{ define "main" }}
 <h1 class="page-title">Reading</h1>
-<p>Tracking what I'm reading, with start/finish dates and ratings.</p>
+<p>{{ .Content }}</p>
 <table class="reading-table">
   <thead>
     <tr>
       <th>Book</th>
       <th>Author</th>
       <th>Status</th>
-      <th>Started</th>
       <th>Finished</th>
       <th>Rating</th>
     </tr>
   </thead>
   <tbody>
-  {{ range sort .Pages.ByTitle }}
+  {{ range (sort .Pages "Params.finished" "desc") }}
     {{ $r := .Params.rating }}
     <tr>
       <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
       <td>{{ with .Params.author }}{{ . }}{{ end }}</td>
       <td>{{ .Params.status | default (cond (isset .Params "finished") "finished" "reading") }}</td>
-      <td>{{ with .Params.started }}{{ . | time | dateFormat "2006-01-02" }}{{ end }}</td>
       <td>{{ with .Params.finished }}{{ . | time | dateFormat "2006-01-02" }}{{ end }}</td>
       <td>
         {{ if $r }}
